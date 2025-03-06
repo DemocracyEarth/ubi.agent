@@ -19,7 +19,7 @@ import {
     stringToUuid,
     validateCharacterConfig,
 } from "@elizaos/core";
-import { defaultCharacter } from "./defaultCharacter.ts";
+import { defaultCharacter } from "./ubidoteth.character.ts";
 
 import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
 import JSON5 from 'json5';

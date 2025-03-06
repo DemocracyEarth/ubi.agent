@@ -178,6 +178,106 @@ The governance implementation includes:
    - Graduated execution based on impact
    - Automatic parameter bounds enforcement
 
+### Prompt Contracts: Natural Language Transaction Processing
+
+The system introduces an innovative "prompt contract" mechanism that enables natural language processing of transactions and governance decisions. This represents a paradigm shift from traditional smart contracts to AI-native contracts that can be written, understood, and executed in natural language.
+
+#### Core Mechanism
+
+1. **Natural Language Contracts**:
+   - Contracts are written in plain English (or other human languages)
+   - AI nodes parse and interpret contract terms
+   - Standardized templates ensure consistency while maintaining flexibility
+   - Version control and amendment history in natural language
+
+2. **Consensus Through AI Interpretation**:
+   - Multiple AI nodes independently parse each prompt contract
+   - Nodes must reach consensus on interpretation (e.g. 7 of 10 nodes agree)
+   - Discrepancies trigger human review and template refinement
+   - Progressive learning improves interpretation accuracy
+
+3. **Execution Validation**:
+   - Parsed instructions are converted to on-chain transactions
+   - Multiple nodes validate execution matches intent
+   - Built-in safeguards prevent malicious interpretations
+   - Audit trail of interpretation and execution steps
+
+4. **Governance Applications**:
+   - Natural language proposals and voting
+   - AI-assisted impact assessment
+   - Automated execution of approved changes
+   - Dynamic parameter adjustment based on system state
+
+#### Technical Implementation
+
+The prompt contract system uses:
+
+1. **Language Processing Pipeline**:
+   - Large language model ensemble for robust interpretation
+   - Specialized models for financial/technical terms
+   - Context-aware processing with system state
+   - Continuous learning from human feedback
+
+2. **Consensus Mechanism**:
+   - Threshold signature scheme for node agreement
+   - Weighted voting based on interpretation confidence
+   - Automatic escalation for edge cases
+   - Performance-based node reputation
+
+3. **Safety Features**:
+   - Transaction bounds and limits
+   - Multi-stage execution for high-value transactions
+   - Rollback capabilities for misinterpretations
+   - Real-time monitoring and alerting
+
+#### Example Prompt Contract
+
+```
+Contract: Token Distribution
+Purpose: Distribute UBI tokens to verified humans
+Terms:
+1. Each verified human receives 1 token per hour
+2. Distribution occurs continuously through dripping
+3. Tokens cannot be transferred until 24 hours after receipt
+4. Maximum daily distribution of 24 tokens per person
+
+Execution:
+- Check verification status hourly
+- Calculate tokens owed based on time elapsed
+- Process distribution if above 0.1 tokens
+- Update recipient balance and timestamp
+```
+
+This contract would be interpreted by AI nodes to:
+1. Validate the structure and completeness
+2. Extract key parameters (1 token/hour, 24-hour lock, etc.)
+3. Generate appropriate on-chain transactions
+4. Monitor execution and compliance
+
+#### Governance Integration
+
+Prompt contracts are particularly powerful for governance, enabling:
+
+1. **Natural Language Proposals**:
+   - Community members submit proposals in plain language
+   - AI nodes analyze impact and requirements
+   - Automatic parameter validation
+   - Clear explanation of changes
+
+2. **Dynamic Execution**:
+   - Context-aware implementation of changes
+   - Progressive rollout based on system health
+   - Automatic adjustment within safe bounds
+   - Emergency brake patterns for safety
+
+3. **Continuous Optimization**:
+   - AI nodes suggest parameter improvements
+   - Impact simulation before execution
+   - Learning from historical decisions
+   - Adaptation to changing conditions
+
+This prompt contract system represents a fundamental evolution in how blockchain systems can be programmed and governed, making them more accessible while maintaining security and precision through AI consensus.
+
 ### Implementation Path
 
 The framework can be implemented through a phased approach:

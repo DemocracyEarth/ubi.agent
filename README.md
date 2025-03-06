@@ -711,139 +711,143 @@ The skeptic might ask: what prevents this system from eventually being captured 
 
 This approach represents not just a new way of managing digital resources, but a new vision for how humanity can maintain sovereignty while leveraging the full power of artificial intelligence.
 
-## 8. Technical Implementation: The Architecture of Digital Freedom
+## 8. Core Tokenomics: The Economic Engine
 
-The technical implementation of a UBI system is not merely a matter of engineering choices—it's a manifestation of philosophical principles in code. Each architectural decision carries profound implications for human autonomy, collective intelligence, and economic justice. Critics might argue that technical specifications should prioritize efficiency and security over philosophical considerations. However, this view misunderstands the inherently political nature of system architecture.
+The tokenomics of our UBI system represents a carefully balanced economic model that combines continuous distribution with sustainable value preservation. This section brings together the various economic mechanisms described throughout this paper into a cohesive framework.
 
-### 8.1 System Architecture: The Digital Social Contract
+### 8.1 Token Supply Dynamics
 
-Our system architecture represents what we call a "Digital Social Contract"—a technical framework that encodes and enforces social values through code. The modular design isn't just for technical elegance; it embodies the principle of separation of powers in digital form.
+The token supply follows a "continuous emission with bounded growth" model:
 
-#### 8.1.1 Core Protocol Layer: The Foundation of Trust
+1. **Base Emission Rate**: 
+   - 1 token per hour per verified human
+   - 24 tokens per day per person
+   - 8,760 tokens per year per person
 
-The core protocol layer might appear to be purely technical, but it implements what we call "Encoded Ethics"—fundamental principles manifested in code:
+2. **Supply Growth**:
+   - Initial supply: 0 tokens
+   - Growth rate: Determined by number of verified humans
+   - Maximum supply: Unbounded but practically limited by verification
+   - Effective supply: Limited by demurrage and recycling
 
-- **Identity Registry**: More than a database, it's a digital representation of human uniqueness
-- **Distribution Engine**: The mechanical heart of economic justice
-- **Economic Controller**: A algorithmic guardian against wealth concentration
-- **Governance Framework**: The digital constitution of our system
+3. **Demurrage Impact**:
+   - Base decay rate: 2% per month on unused tokens
+   - Progressive scaling: Decay increases with holding size
+   - Circulation incentive: Active usage resets decay timer
+   - Net effect: Creates soft cap on effective supply
 
-Critics might argue that encoding ethics in protocols is presumptuous or restrictive. Yet every technical system embodies some set of values—we simply make ours explicit and subject to collective governance.
+### 8.2 Distribution Mechanics
 
-**Implementation Philosophy**:
-- Rust: Chosen not just for performance but for its emphasis on safety and correctness
-- WebAssembly: Enabling true platform independence and universal access
-- Content-addressable storage: Creating immutable truth rather than mutable state
-- UTXO/Account hybrid: Balancing privacy with accountability
+The distribution system implements several overlapping mechanisms:
 
-#### 8.1.2 Service Integration Layer: The Marketplace of Intelligence
+1. **Continuous Dripping**:
+   - Base rate: 1/3600 tokens per second
+   - Distribution method: Automatic streaming
+   - Claiming: Not required (automatic accrual)
+   - Backlog: No expiration on unclaimed tokens
 
-This layer represents our vision of how AI services should be democratized. Unlike traditional platforms that create walled gardens, our service layer implements what we call "Permissionless Intelligence":
+2. **Fee Recycling**:
+   - Transaction fees: Progressive scale starting at 0.1%
+   - Fee distribution: 100% to UBI pool
+   - Large transaction fee cap: 5% maximum
+   - Fee adjustment: Dynamic based on network usage
 
-- **Provider Registry**: A meritocratic system for AI service provision
-- **Service Discovery**: Democratic access to cognitive enhancement
-- **Payment Channels**: Economic neural pathways of the system
-- **Result Verification**: Trust through verification, not authority
+3. **Value Preservation**:
+   - Bitcoin reserve ratio: Minimum 21%
+   - ETH collateral: Dynamic allocation
+   - Yield generation: From reserve assets
+   - Buyback mechanism: Automated through smart contracts
 
-**Technical Manifestation**:
-- gRPC: Chosen for its efficiency but implemented with human-readable interfaces
-- ED25519 signatures: Cryptographic guarantees of human agency
-- Zero-knowledge proofs: Privacy as a fundamental right, not a feature
+### 8.3 Economic Equilibrium
 
-#### 8.1.3 User Experience Layer: The Interface of Empowerment
+The system maintains equilibrium through several feedback loops:
 
-The interface layer isn't just about usability—it's about digital empowerment. Each component represents a tool for human flourishing:
+1. **Supply-Demand Balance**:
+   - Token creation: Continuous through verification
+   - Token destruction: Through demurrage and fees
+   - Value support: Through reserve assets
+   - Market making: Automated through smart contracts
 
-- **Identity Management**: Self-sovereign identity in practice
-- **Wallet Interface**: Personal economic sovereignty
-- **Service Access Portal**: Democratic access to artificial intelligence
-- **Governance Participation**: Digital citizenship in action
+2. **Velocity Optimization**:
+   - Target velocity: 12 transactions per token per year
+   - Velocity incentives: Demurrage and fee structure
+   - Usage rewards: AI service discounts for active users
+   - Hoarding penalties: Progressive demurrage
 
-**Implementation Choices**:
-- React/TypeScript: Type safety as a form of user protection
-- Progressive Web Apps: Universal access as a fundamental right
-- WCAG 2.1 AA compliance: Accessibility as a core value, not an afterthought
+3. **Price Stability**:
+   - Primary mechanism: Reserve ratio maintenance
+   - Secondary mechanism: Automated market making
+   - Tertiary mechanism: Dynamic fee adjustment
+   - Emergency mechanism: Circuit breakers
 
-### 8.2 Identity: The Architecture of Uniqueness
+### 8.4 Service Economy Integration
 
-Our identity system addresses a fundamental paradox: how to verify uniqueness while preserving privacy. Critics argue this is an impossible balance, but our implementation demonstrates otherwise.
+The AI service marketplace creates natural token demand:
 
-#### 8.2.1 Social Graph Verification: The Web of Trust
+1. **Service Pricing**:
+   - Base unit: Cost per compute unit
+   - Dynamic pricing: Based on network load
+   - Bulk discounts: For regular users
+   - Priority access: Token holding tiers
 
-The social graph verification system implements what we call "Computational Sociology":
+2. **Provider Economics**:
+   - Revenue share: 70% to providers, 30% to system
+   - Staking requirements: Based on service volume
+   - Quality incentives: Performance-based rewards
+   - Slashing conditions: For service failures
 
-- Trust propagation algorithms that mirror natural human networks
-- Sybil resistance through social physics
-- Privacy through differential privacy (ε=2.0)—mathematically guaranteed anonymity
+3. **Value Capture**:
+   - System revenue: From service fees
+   - Reserve growth: From fee recycling
+   - Provider incentives: Through token appreciation
+   - User benefits: Through service access
 
-#### 8.2.2 Zero-Knowledge Biometrics: The Paradox of Private Proof
+### 8.5 Economic Security
 
-Our biometric system solves the seemingly contradictory goal of proving human uniqueness without revealing human identity:
+The system implements multiple security layers:
 
-- Local computation: Your biometric data never leaves your device
-- Homomorphic encryption: Proving humanity without exposing identity
-- Bulletproofs: Mathematical certainty with minimal disclosure
+1. **Attack Resistance**:
+   - Sybil attacks: Prevented by verification
+   - Market manipulation: Limited by velocity controls
+   - Front-running: Prevented by fair ordering
+   - Governance attacks: Protected by quadratic voting
 
-### 8.3 Distribution: The Mechanics of Economic Justice
+2. **Value Protection**:
+   - Reserve assets: Multi-asset backing
+   - Smart contracts: Formal verification
+   - Oracle feeds: Decentralized price discovery
+   - Emergency controls: Multi-sig governance
 
-The distribution system represents "Programmatic Economic Justice"—fairness encoded in algorithms and executed with mathematical precision.
+### 8.6 Sustainability Metrics
 
-#### 8.3.1 Stream Optimization: The Poetry of Efficiency
+Key performance indicators for system health:
 
-Our stream contracts achieve a kind of mathematical elegance:
+1. **Distribution Efficiency**:
+   - Target: >95% of emissions reach intended recipients
+   - Overhead: <5% operational costs
+   - Leakage: <1% to unintended recipients
+   - Verification accuracy: >99.9%
 
-- Single timestamp storage: Minimalism as a technical virtue
-- Just-in-time calculation: The beauty of mathematical derivation
-- Gas efficiency: Economic justice shouldn't be expensive
+2. **Economic Stability**:
+   - Price volatility: Target <10% monthly
+   - Reserve ratio: Maintain >21% backing
+   - Velocity: 12±3 transactions per year
+   - Active users: >80% of verified humans
 
-#### 8.3.2 Token Standards: The Grammar of Value
+3. **Service Economy**:
+   - Provider diversity: No single provider >20%
+   - Service availability: >99.9% uptime
+   - User satisfaction: >4.5/5 rating
+   - Cost efficiency: <$0.01 per compute unit
 
-The token standard extensions implement what we call "Programmable Economic Policy":
+This tokenomics model creates a self-sustaining economic engine that:
+- Ensures continuous and reliable distribution
+- Maintains token value through real utility
+- Prevents wealth concentration
+- Supports a thriving service economy
+- Provides long-term sustainability
 
-- Progressive demurrage: Mathematical resistance to wealth concentration
-- Streaming capabilities: Time as a fundamental economic dimension
-- Metadata richness: Tokens as carriers of social context
-
-### 8.4 AI Provider Network: The Infrastructure of Collective Intelligence
-
-The AI provider network represents our vision of democratized intelligence—a system where AI enhances rather than replaces human capability.
-
-#### 8.4.1 Provider Onboarding: The Meritocracy of Service
-
-The onboarding process implements "Proof of Value"—a new consensus mechanism based on service quality:
-
-- Cryptographic capability proofs: Trust through verification
-- Quality metrics: Objective standards for subjective value
-- Staking requirements: Skin in the game for service providers
-
-#### 8.4.2 Service Execution: The Orchestra of Intelligence
-
-The execution environment creates what we call "Verifiable Intelligence":
-
-- Docker isolation: Security through containment
-- Trusted Execution: Guarantees of computational integrity
-- End-to-end encryption: Privacy as a fundamental right
-
-### 8.5 Development Roadmap: The Path to Digital Liberation
-
-Our development phases aren't just technical milestones—they're stages in the evolution of a new economic species:
-
-#### Phase 1: Foundation (Months 1-6)
-The birth of digital identity and economic sovereignty
-
-#### Phase 2: Distribution (Months 7-12)
-The implementation of programmatic economic justice
-
-#### Phase 3: Utility (Months 13-18)
-The democratization of artificial intelligence
-
-#### Phase 4: Expansion (Months 19-24)
-The scaling of digital economic freedom
-
-#### Phase 5: Maturity (Months 25+)
-The emergence of a self-sustaining digital economy
-
-Each phase builds upon the previous, creating not just a technical system but a new model for human economic interaction in the digital age.
+The system's economic design demonstrates that UBI can be implemented in a way that is both equitable and economically sustainable, creating genuine value while ensuring fair distribution.
 
 ## 9. Conclusion: A New Model for Digital Exchange
 

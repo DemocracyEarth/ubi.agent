@@ -20,6 +20,7 @@ import {
     validateCharacterConfig,
 } from "@elizaos/core";
 import { defaultCharacter } from "./defaultCharacter.ts";
+import twitterPlugin from "@elizaos-plugins/client-twitter";
 
 import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
 import JSON5 from 'json5';
@@ -627,6 +628,7 @@ export async function createAgent(
         // character.plugins are handled when clients are added
         plugins: [
             bootstrapPlugin,
+            twitterPlugin
         ]
             .flat()
             .filter(Boolean),

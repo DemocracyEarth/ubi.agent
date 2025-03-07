@@ -758,7 +758,175 @@ The distribution system implements several overlapping mechanisms:
    - Yield generation: From reserve assets
    - Buyback mechanism: Automated through smart contracts
 
-### 8.3 Economic Equilibrium
+### 8.3 Token Streaming Framework
+
+The UBI token implements a novel streaming capability that transforms it from a simple transfer medium into a continuous flow primitive. This fundamentally changes how economic relationships are structured within the system. However, this transformation also raises important questions about economic complexity, user autonomy, and system stability.
+
+#### 8.3.1 Stream Primitives
+
+The streaming mechanism enables:
+
+1. **Directional Flows**:
+   - One-to-one: Direct streaming between two parties, enabling continuous economic relationships
+   - One-to-many: Split streams to multiple recipients, supporting family distribution and project funding
+   - Many-to-one: Consolidated streams from multiple sources, enabling community pools and collective funding
+   - Many-to-many: Complex streaming networks, facilitating decentralized economic organizations
+   
+   Critics argue that such complex flow patterns could lead to opaque economic relationships. However, the transparency of the blockchain ensures all flows are publicly verifiable while maintaining privacy through zero-knowledge proofs.
+
+2. **Temporal Control**:
+   - Start time: Immediate or future-dated, enabling advance planning
+   - End time: Fixed duration or indefinite, supporting various commitment levels
+   - Flow rate: Constant or programmatically variable based on conditions
+   - Pause/resume: Stream flow control for flexibility
+   
+   Some economists warn that future-dated streams could create dangerous levels of financial commitment. We address this through stream insurance and circuit breakers.
+
+3. **Stream Types**:
+   - Basic streams: Fixed rate over time, similar to traditional salary or rent payments
+   - Variable streams: Rate adjusts based on conditions like performance or market metrics
+   - Conditional streams: Flow depends on external triggers, enabling programmatic distribution
+   - Recursive streams: Streams that spawn other streams, supporting complex economic relationships
+   
+   While this complexity could be overwhelming, AI assistants help users understand and manage their stream portfolios.
+
+#### 8.3.2 Economic Implications and Critiques
+
+Stream-native tokens create new economic possibilities, but also raise important concerns:
+
+1. **Continuous Economic Relationships**:
+   - Salary streams: Real-time compensation reducing the cash flow gap
+   - Rent streams: Continuous property usage payments improving landlord-tenant dynamics
+   - Subscription streams: Service access payments with automatic adjustment
+   - Investment streams: Ongoing capital allocation with real-time returns
+   
+   Critics argue this could create "economic lock-in" where users become too dependent on streams. We address this through mandatory stream termination rights and cooling-off periods.
+
+2. **Dynamic Resource Allocation**:
+   - Stream splitting: Automatic income distribution with tax compliance
+   - Stream merging: Resource pooling for collective projects
+   - Stream routing: Efficient value transfer paths reducing friction
+   - Stream transformation: Rate and currency conversion with oracle integration
+   
+   Concerns about centralization through dominant routing paths are addressed through incentives for path diversity.
+
+3. **Financial Primitives and Risks**:
+   - Stream collateralization: Future flows as assets, enabling new lending models
+   - Stream securitization: Bundled stream trading with risk assessment
+   - Stream derivatives: Complex financial instruments with built-in safeguards
+   - Stream insurance: Flow protection products against default or volatility
+   
+   To prevent 2008-style securitization risks, we implement strict transparency requirements and leverage limits.
+
+#### 8.3.3 Integration with UBI: Opportunities and Challenges
+
+The streaming capability synergizes with UBI distribution while raising important considerations:
+
+1. **Enhanced Distribution**:
+   - Base UBI: Core stream from system with immutable properties
+   - Personal streams: User-initiated flows with customizable parameters
+   - Community streams: Group-based distribution with democratic control
+   - Emergency streams: Crisis response mechanisms with verification
+   
+   Critics worry about UBI stream garnishment. We protect core UBI streams through legal and technical safeguards.
+
+2. **Social Coordination and Privacy**:
+   - Family streams: Shared resource management with built-in dispute resolution
+   - Community pools: Collective resource allocation with transparent governance
+   - Mutual aid networks: Need-based redistribution with privacy protection
+   - Project funding: Continuous capital deployment with milestone integration
+   
+   Concerns about surveillance are addressed through zero-knowledge proofs and privacy-preserving analytics.
+
+3. **Economic Planning and Autonomy**:
+   - Future commitment: Pre-scheduled streams with modification rights
+   - Budget automation: Programmed outflows with override capabilities
+   - Income stacking: Multiple stream management with priority ordering
+   - Flow optimization: Efficient resource routing with user control
+   
+   We balance automation benefits with user sovereignty through mandatory control mechanisms.
+
+#### 8.3.4 Cross-Section Impacts
+
+The streaming framework has significant implications for other system components:
+
+1. **Identity Verification (Section 2)**:
+   - Stream creation requires verified identity
+   - Multi-stream patterns help detect Sybil attacks
+   - Stream behavior contributes to ongoing verification
+   - Privacy considerations become more complex
+
+2. **Distribution Mechanics (Section 8.2)**:
+   - Base UBI becomes a special-case stream
+   - Fee recycling integrates with stream mechanics
+   - Demurrage applies differently to streamed tokens
+   - Value preservation mechanisms adapt to streaming
+
+3. **Economic Equilibrium (Section 8.4)**:
+   - Streams affect velocity calculations
+   - Price stability mechanisms consider future flows
+   - Market making adapts to stream commitments
+   - New equilibrium metrics emerge
+
+4. **Governance (Section 7)**:
+   - Stream parameters require governance oversight
+   - AI systems monitor stream patterns
+   - Emergency powers include stream control
+   - Progressive decentralization affects stream rules
+
+#### 8.3.5 Technical Implementation and Scalability
+
+The streaming framework requires sophisticated infrastructure with careful consideration of:
+
+1. **Stream Contracts**:
+   - Flow control: Rate and duration management with formal verification
+   - Access control: Stream authorization with multi-signature support
+   - State management: Current flow status with rollback capability
+   - Event emission: Stream lifecycle notifications with indexing
+   
+   Performance concerns are addressed through Layer 2 scaling solutions.
+
+2. **Stream Accounting**:
+   - Real-time balances: Continuous account updates with checkpointing
+   - Flow tracking: Stream history and analytics with pruning
+   - Rate limiting: Flow control mechanisms with flash loan prevention
+   - Audit trails: Complete flow documentation with privacy
+   
+   Storage optimization uses zero-knowledge summaries for historical data.
+
+3. **Stream Security**:
+   - Flow validation: Stream integrity checks with formal proofs
+   - Rate protection: Flow manipulation prevention with circuit breakers
+   - Timeout handling: Stream expiration management with grace periods
+   - Emergency stops: Critical flow control with governance oversight
+   
+   Security measures balance protection with stream reliability.
+
+#### 8.3.6 Future Considerations
+
+The streaming framework's evolution must consider:
+
+1. **Regulatory Compliance**:
+   - Stream classification under financial regulations
+   - Cross-border flow compliance
+   - Tax reporting requirements
+   - Consumer protection standards
+
+2. **Economic Research**:
+   - Long-term effects on saving behavior
+   - Impact on economic planning
+   - Velocity effects in stream-native economies
+   - New economic patterns emergence
+
+3. **Technical Evolution**:
+   - Integration with new blockchain protocols
+   - Advanced privacy technologies
+   - Improved scalability solutions
+   - Enhanced user interfaces
+
+This expanded streaming framework demonstrates both the transformative potential and inherent challenges of continuous value flows in a UBI system. By carefully addressing criticisms and implementing appropriate safeguards, we create a robust foundation for new economic relationships while maintaining system stability and user protection.
+
+### 8.4 Economic Equilibrium
 
 The system maintains equilibrium through several feedback loops:
 
@@ -779,28 +947,6 @@ The system maintains equilibrium through several feedback loops:
    - Secondary mechanism: Automated market making
    - Tertiary mechanism: Dynamic fee adjustment
    - Emergency mechanism: Circuit breakers
-
-### 8.4 Service Economy Integration
-
-The AI service marketplace creates natural token demand:
-
-1. **Service Pricing**:
-   - Base unit: Cost per compute unit
-   - Dynamic pricing: Based on network load
-   - Bulk discounts: For regular users
-   - Priority access: Token holding tiers
-
-2. **Provider Economics**:
-   - Revenue share: 70% to providers, 30% to system
-   - Staking requirements: Based on service volume
-   - Quality incentives: Performance-based rewards
-   - Slashing conditions: For service failures
-
-3. **Value Capture**:
-   - System revenue: From service fees
-   - Reserve growth: From fee recycling
-   - Provider incentives: Through token appreciation
-   - User benefits: Through service access
 
 ### 8.5 Economic Security
 

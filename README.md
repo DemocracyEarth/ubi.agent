@@ -1,4 +1,4 @@
-# AI Commons: A Human-Verified Network for Democratic AI Access and Universal Basic Income.
+# A Human-Verified Network for Democratic AI Access and Universal Basic Income.
 
 ## Abstract
 
